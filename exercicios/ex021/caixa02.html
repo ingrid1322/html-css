@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags semanticas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(108, 190, 163);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(29, 97, 88);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        aside > p {
+            background-color: rgb(209, 199, 105);
+        }
+
+        nav {
+            background-color: rgb(98, 153, 139);
+            padding: 3px;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.671);
+        } 
+
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color:rgb(32, 105, 93);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: beige;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Noticia">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quis. Minima nemo ea dolor aut illum, sunt quo consectetur similique et ad eveniet quasi cupiditate, nisi facilis vel soluta numquam.</p>
+                <aside>
+                    <p>Artigo Escrito por JOSÉ</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Noticias sobre ROBINHO</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis velit, dolores dolorum ad repellendus blanditiis dolorem pariatur laudantium eos fugit debitis quod dicta sequi hic aspernatur! Impedit molestias iusto soluta.</p>
+            </article> 
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CURSOEMVIDEO</p>
+    </footer>
+</body>
+</html>
